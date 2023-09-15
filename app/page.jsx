@@ -52,6 +52,8 @@ export default function Home() {
     "bg-slate-50 border-fuchsia-700",
     "bg-slate-50 border-purple-700",
     "bg-slate-50 border-violet-700",
+    "bg-slate-50 border-indigo-700",
+
 
   ]
 
@@ -63,6 +65,7 @@ export default function Home() {
     "bg-fuchsia-100 border-fuchsia-700 ",
     "bg-purple-100 border-purple-700 ",
     "bg-violet-100 border-violet-700 ",
+    "bg-indigo-100 border-indigo-700 ",
 
   ]
 
@@ -74,6 +77,7 @@ export default function Home() {
     "bg-fuchsia-400 border-fuchsia-700",
     "bg-purple-400 border-purple-700",
     "bg-violet-400 border-violet-700",
+    "bg-indigo-400 border-indigo-700",
 
   ]
 
@@ -84,6 +88,7 @@ export default function Home() {
     "bg-fuchsia-500 border-fuchsia-700",
     "bg-purple-500 border-purple-700",
     "bg-violet-500 border-violet-700",
+    "bg-indigo-500 border-indigo-700",
 
   ]
   //color varients text
@@ -94,6 +99,7 @@ export default function Home() {
     "text-fuchsia-700",
     "text-purple-700",
     "text-violet-700",
+    "text-indigo-700",
 
   ]
 
@@ -103,7 +109,7 @@ export default function Home() {
     "bg-fuchsia-700 border-fuchsia-700",
     "bg-purple-700 border-purple-700",
     "bg-violet-700 border-violet-700",
-
+    "bg-indigo-700 border-indigo-700",
 
   ]
 
