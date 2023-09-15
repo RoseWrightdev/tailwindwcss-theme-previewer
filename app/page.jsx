@@ -133,8 +133,8 @@ export default function Home() {
   return (
    <>
    <div className="ml-[25dvw] mt-16">
-      <h1 className={`${textColorVariants[index]} text-5xl m-2 my-auto`}>TailwindCSS Color Theme Demos</h1>
-      <h1 className={`${textColorVariants[index]} text-3xl ml-4 my-2 italic`}>{themeName}</h1>
+      <h1 className={`${textColorVariants[index]} text-5xl m-2 my-auto`}>TailwindCSS Color Theme Demo</h1>
+      <h1 className={`${textColorVariants[index]} text-3xl ml-4 my-2 italic`}>{themeName + " " + (index + 1) + "/ " + themeData.length}</h1>
       <div className="flex m-2">
         <div className="flex">
           <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeLight}</h1>
@@ -240,7 +240,7 @@ export default function Home() {
           <button className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`} onClick={handleClickNext}>
             Next
           </button>
-          {index !== 0 ? <button onClick={handleClickBack} className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`}>Back</button> : <button className={`bg-slate-300 p-4 rounded-lg text-slate-600 mr-4 border-2  border-slate-300 select-none`}>Back</button>}
+          {index !== 0 ? <button onClick={handleClickBack} className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`}>Back</button> : <button className={`bg-slate-300 p-4 rounded-lg text-slate-600 mr-4 border-2  border-slate-300 cursor-default`}>Back</button>}
         </div>
       </div>
    </>
