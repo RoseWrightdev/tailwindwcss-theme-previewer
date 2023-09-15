@@ -61,6 +61,7 @@ export default function Home() {
     "bg-slate-50 border-green-700",
     "bg-slate-50 border-lime-700",
     "bg-slate-50 border-yellow-700",
+    "bg-slate-50 border-amber-700",
   ]
 
 
@@ -80,6 +81,7 @@ export default function Home() {
     "bg-green-100 border-green-700 ",
     "bg-lime-100 border-lime-700 ",
     "bg-yellow-100 border-yellow-700 ",
+    "bg-amber-100 border-amber-700 ",
   ]
 
     
@@ -99,6 +101,7 @@ export default function Home() {
     "bg-green-400 border-green-700",
     "bg-lime-400 border-lime-700",
     "bg-yellow-400 border-yellow-700",
+    "bg-amber-400 border-amber-700",
   ]
 
   //color varients medium accent
@@ -117,6 +120,7 @@ export default function Home() {
     "bg-green-500 border-green-700",
     "bg-lime-500 border-lime-700",
     "bg-yellow-500 border-yellow-700",
+    "bg-amber-500 border-amber-700",
   ]
   //color varients text
 
@@ -135,6 +139,7 @@ export default function Home() {
     "text-green-700",
     "text-lime-700",
     "text-yellow-700",
+    "text-amber-700",
   ]
 
   const textColorVarientsBg = [
@@ -152,6 +157,7 @@ export default function Home() {
     "bg-green-700 border-green-700",
     "bg-lime-700 border-lime-700",
     "bg-yellow-700 border-yellow-700",
+    "bg-amber-700 border-amber-700",
   ]
 
   return (

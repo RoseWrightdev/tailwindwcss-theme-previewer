@@ -210,4 +210,20 @@ export const themeData = [
     colorText: "yellow-700",
     colorTextHex: "#a16207",
 },
+{
+    key: 14,
+    themeName1: "Amber",
+    themeName2: "Stone",
+    colorLight: "stone-50",
+    colorLightHex: "#f8fafc",
+    colorLightAccent: "amber-100",
+    colorLightAccentHex: "#fef3c7",
+    colorMediumAccent: "amber-400",
+    colorMediumAccentHex: "#fbbf24",
+    colorMedium: "amber-500",
+    colorMediumHex: "#f59e0b",
+    colorText: "amber-700",
+    colorTextHex: "#b45309",
+},
+
 ]
