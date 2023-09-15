@@ -175,10 +175,11 @@ export default function Home() {
 
   return (
    <>
-   <div className="ml-[25dvw] mt-16">
-      <h1 className={`${textColorVariants[index]} text-5xl m-2 my-auto`}>TailwindCSS Color Theme Demo</h1>
-      <h1 className={`${textColorVariants[index]} text-3xl ml-4 my-2 italic`}>{themeName + " " + (index + 1) + "/ " + themeData.length}</h1>
-      <div className="flex m-2">
+   <div className="flex justify-center items-center">
+   <div className="mt-16 flex flex-col">
+      <h1 className={`${textColorVariants[index]} md:text-5xl sm:text-3xl m-2 my-auto`}>TailwindCSS Color Theme Demo</h1>
+      <h1 className={`${textColorVariants[index]} md:text-3xl sm:text-2xl ml-4 my-2 italic`}>{themeName + " " + (index + 1) + " / " + themeData.length}</h1>
+      <div className="flex md:flex-row flex-col  m-2">
         <div className="flex">
           <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeLight}</h1>
           <div className={`${themeLightColorVariants[index]} p-4 rounded-full mr-4 border-2`}></div>
@@ -201,10 +202,12 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </div>
       
       <div className="justify-center items-center w-[100dvw] h-[100dvh]">
-        <div className="flex flex-row mx-[25vw] my-8">
-          <div className="w-[40vw]">
+        
+        <div className="flex justify-center items-center flex-row md:mx-[25vw] mx-auto my-8">
+          <div className="md:w-[40vw] w-[60vw]">
           <svg viewBox="0 0 842 599" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_21_428)">
             <rect width="842" height="599" rx="16" fill={themelightHex}/>
@@ -241,7 +244,7 @@ export default function Home() {
             </defs>
           </svg>
           </div>  
-          <div className="w-[10vw] flex ml-10">
+          <div className="md:w-[10vw] w-[15vw] md:ml-10">
           <svg  className=""viewBox="0 0 211 468" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_21_463)">
             <rect width="211" height="468" rx="16" fill={themelightHex}/>
