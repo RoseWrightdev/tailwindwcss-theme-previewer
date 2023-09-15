@@ -55,6 +55,7 @@ export default function Home() {
     "bg-slate-50 border-indigo-700",
     "bg-slate-50 border-blue-700",
     "bg-slate-50 border-sky-700",
+    "bg-slate-50 border-cyan-700",
   ]
 
 
@@ -68,6 +69,7 @@ export default function Home() {
     "bg-indigo-100 border-indigo-700 ",
     "bg-blue-100 border-blue-700 ",
     "bg-sky-100 border-sky-700 ",
+    "bg-cyan-100 border-cyan-700 ",
   ]
 
     
@@ -81,6 +83,7 @@ export default function Home() {
     "bg-indigo-400 border-indigo-700",
     "bg-blue-400 border-blue-700",
     "bg-sky-400 border-sky-700",
+    "bg-cyan-400 border-cyan-700",
   ]
 
   //color varients medium accent
@@ -93,6 +96,7 @@ export default function Home() {
     "bg-indigo-500 border-indigo-700",
     "bg-blue-500 border-blue-700",
     "bg-sky-500 border-sky-700",
+    "bg-cyan-500 border-cyan-700",
   ]
   //color varients text
 
@@ -105,6 +109,7 @@ export default function Home() {
     "text-indigo-700",
     "text-blue-700",
     "text-sky-700",
+    "text-cyan-700",
   ]
 
   const textColorVarientsBg = [
@@ -116,6 +121,7 @@ export default function Home() {
     "bg-indigo-700 border-indigo-700",
     "bg-blue-700 border-blue-700",
     "bg-sky-700 border-sky-700",
+    "bg-cyan-700 border-cyan-700",
   ]
 
   return (
