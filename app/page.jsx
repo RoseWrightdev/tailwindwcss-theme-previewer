@@ -50,6 +50,8 @@ export default function Home() {
     "bg-slate-50 border-rose-700",
     "bg-slate-50 border-pink-700",
     "bg-slate-50 border-fuchsia-700",
+    "bg-slate-50 border-purple-700",
+
   ]
 
 
@@ -58,21 +60,26 @@ export default function Home() {
     "bg-rose-100 border-rose-700",
     "bg-pink-100 border-pink-700",
     "bg-fuchsia-100 border-fuchsia-700 ",
+    "bg-purple-100 border-purple-700 ",
+
   ]
 
     
   //color varients medium accent
   const themeMediumAccentColorVariants = [
-    "bg-rose-400 border-rose-700 ",
-    "bg-pink-400 border-pink-700 ",
-    "bg-fuchsia-400 border-fuchsia-700 ",
+    "bg-rose-400 border-rose-700",
+    "bg-pink-400 border-pink-700",
+    "bg-fuchsia-400 border-fuchsia-700",
+    "bg-purple-400 border-purple-700",
   ]
 
   //color varients medium accent
   const themeMediumColorVariants = [
-    "bg-rose-500 border-rose-700 ",
-    "bg-pink-500 border-pink-700 ",
-    "bg-fuchsia-500 border-fuchsia-700 ",
+    "bg-rose-500 border-rose-700",
+    "bg-pink-500 border-pink-700",
+    "bg-fuchsia-500 border-fuchsia-700",
+    "bg-purple-500 border-purple-700",
+
   ]
   //color varients text
 
@@ -80,12 +87,15 @@ export default function Home() {
     "text-rose-700",
     "text-pink-700",
     "text-fuchsia-700",
+    "text-purple-700",
   ]
 
   const textColorVarientsBg = [
-    "bg-rose-700 border-rose-700 ",
-    "bg-pink-700 border-pink-700 ",
-    "bg-fuchsia-700 border-fuchsia-700 ",
+    "bg-rose-700 border-rose-700",
+    "bg-pink-700 border-pink-700",
+    "bg-fuchsia-700 border-fuchsia-700",
+    "bg-purple-700 border-purple-700",
+
   ]
 
   return (
