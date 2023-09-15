@@ -43,11 +43,33 @@ export default function Home() {
 
   //color varients light
   const themeLightColorVariants = [
-    "bg-slate-50 border-rose-700 border-2",
-    "bg-slate-50 border-pink-700 border-2",
-    "bg-slate-50 border-fuchsia-700 border-2",
+    "bg-slate-50 border-rose-700",
+    "bg-slate-50 border-pink-700",
+    "bg-slate-50 border-fuchsia-700",
   ]
 
+
+  //color varients light accent
+  const themeLightAccentColorVariants = [
+    "bg-rose-100 border-rose-700",
+    "bg-pink-100 border-pink-700",
+    "bg-fuchsia-100 border-fuchsia-700 ",
+  ]
+
+    
+  //color varients medium accent
+  const themeMediumAccentColorVariants = [
+    "bg-rose-400 border-rose-700 ",
+    "bg-pink-400 border-pink-700 ",
+    "bg-fuchsia-400 border-fuchsia-700 ",
+  ]
+
+  //color varients medium accent
+  const themeMediumColorVariants = [
+    "bg-rose-500 border-rose-700 ",
+    "bg-pink-500 border-pink-700 ",
+    "bg-fuchsia-500 border-fuchsia-700 ",
+  ]
   //color varients text
 
   const textColorVariants = [
@@ -56,6 +78,11 @@ export default function Home() {
     "text-fuchsia-700",
   ]
 
+  const textColorVarientsBg = [
+    "bg-rose-700 border-rose-700 ",
+    "bg-pink-700 border-pink-700 ",
+    "bg-fuchsia-700 border-fuchsia-700 ",
+  ]
 
   return (
    <>
@@ -64,12 +91,24 @@ export default function Home() {
       <div className="flex m-2">
         <div className="flex">
           <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeLight}</h1>
-          <div className={`${themeLightColorVariants[index]} p-4 rounded-full mr-4`}></div>
+          <div className={`${themeLightColorVariants[index]} p-4 rounded-full mr-4 border-2`}></div>
         </div>
-        <h1>{themeLightAccent}</h1>
-        <h1>{themeMedium}</h1>
-        <h1>{themeMediumAccent}</h1>
-        <h1>{themeText}</h1>
+        <div className="flex">
+          <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeLightAccent}</h1>
+          <div className={`${themeLightAccentColorVariants[index]} p-4 rounded-full mr-4 border-2`}></div>
+        </div>
+        <div className="flex">
+         <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeMediumAccent}</h1>
+         <div className={`${themeMediumAccentColorVariants[index]} p-4 rounded-full mr-4 border-2`}></div>
+        </div>
+        <div className="flex">
+          <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeMedium}</h1>
+          <div className={`${themeMediumColorVariants[index]} p-4 rounded-full mr-4 border-2`}></div>
+        </div>
+        <div className="flex">
+          <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeText}</h1>
+          <div className={`${textColorVarientsBg[index]} p-4 rounded-full mr-4 border-2`}></div> 
+        </div>
       </div>
     </div>
       
@@ -111,9 +150,9 @@ export default function Home() {
             </clipPath>
             </defs>
           </svg>
-          </div>
-          <div className="w-[10vw]">
-          <svg viewBox="0 0 211 468" fill="none" xmlns="http://www.w3.org/2000/svg">
+          </div>  
+          <div className="w-[10vw] flex ml-10">
+          <svg  className=""viewBox="0 0 211 468" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_21_463)">
             <rect width="211" height="468" rx="16" fill={themelightHex}/>
             <path d="M-44.9232 300.013C9.43038 379.216 133.525 504.928 182.503 435C231.482 365.072 234.971 166.472 166.589 118.577C75.6373 54.874 6.1016 64.7494 -50.0938 177.513C-23.9232 241.513 -50.0938 177.513 -44.9232 300.013Z" fill={themelightAccentHex}/>
@@ -151,10 +190,10 @@ export default function Home() {
           </div>
         </div>
         <div className="ml-[25dvw]">
-          <button className="p-5 bg-slate-300 border-4 rounded-lg m-5" onClick={handleClickNext}>
+          <button className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`} onClick={handleClickNext}>
             Next
           </button>
-          {index !== 0 ? <button onClick={handleClickBack} className="p-5 bg-slate-300 border-4 rounded-lg m-5">Back</button> : null}
+          {index !== 0 ? <button onClick={handleClickBack} className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`}>Back</button> : <button className={`bg-slate-300 p-4 rounded-lg text-slate-600 mr-4 border-2  border-slate-300 select-none`}>Back</button>}
         </div>
       </div>
    </>
