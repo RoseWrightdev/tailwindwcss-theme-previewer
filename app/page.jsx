@@ -1,6 +1,5 @@
 'use client'
 
-import Button from "./_conponents/Button"
 import { themeData } from "./data"
 import { useState } from "react"
 
@@ -41,10 +40,39 @@ export default function Home() {
   function handleClickBack() {
     setIndex(index - 1);
   }
-  
+
+  //color varients light
+  const themeLightColorVariants = [
+    "bg-slate-50 border-rose-700 border-2",
+    "bg-slate-50 border-pink-700 border-2",
+    "bg-slate-50 border-fuchsia-700 border-2",
+  ]
+
+  //color varients text
+
+  const textColorVariants = [
+    "text-rose-700",
+    "text-pink-700",
+    "text-fuchsia-700",
+  ]
+
+
   return (
    <>
-      <h1 className="ml-[25dvw] mt-16 text-5xl">TailwindCSS Color Theme Demos</h1>
+   <div className="ml-[25dvw] mt-16">
+      <h1 className={`${textColorVariants[index]} text-5xl m-2 my-auto`}>TailwindCSS Color Theme Demos</h1>
+      <div className="flex m-2">
+        <div className="flex">
+          <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeLight}</h1>
+          <div className={`${themeLightColorVariants[index]} p-4 rounded-full mr-4`}></div>
+        </div>
+        <h1>{themeLightAccent}</h1>
+        <h1>{themeMedium}</h1>
+        <h1>{themeMediumAccent}</h1>
+        <h1>{themeText}</h1>
+      </div>
+    </div>
+      
       <div className="justify-center items-center w-[100dvw] h-[100dvh]">
         <div className="flex flex-row mx-[25vw] my-8">
           <div className="w-[40vw]">
@@ -123,12 +151,11 @@ export default function Home() {
           </div>
         </div>
         <div className="ml-[25dvw]">
-          <button onClick={handleClickNext}>
+          <button className="p-5 bg-slate-300 border-4 rounded-lg m-5" onClick={handleClickNext}>
             Next
           </button>
-            {index !== 0 ? <button onClick={handleClickBack}>Back</button> : null}
+          {index !== 0 ? <button onClick={handleClickBack} className="p-5 bg-slate-300 border-4 rounded-lg m-5">Back</button> : null}
         </div>
-        
       </div>
    </>
   )
