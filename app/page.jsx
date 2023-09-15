@@ -27,6 +27,10 @@ export default function Home() {
   let themeText = theme.colorText; 
   let themeTextHex = theme.colorTextHex;
 
+  //Theme Nmae
+
+  let themeName = theme.themeName1 + " " + theme.themeName2;
+
   //next button
   function handleClickNext() {
     if(themeData.length - 1 === index){
@@ -88,6 +92,7 @@ export default function Home() {
    <>
    <div className="ml-[25dvw] mt-16">
       <h1 className={`${textColorVariants[index]} text-5xl m-2 my-auto`}>TailwindCSS Color Theme Demos</h1>
+      <h1 className={`${textColorVariants[index]} text-3xl ml-4 my-2 italic`}>{themeName}</h1>
       <div className="flex m-2">
         <div className="flex">
           <h1 className={`${textColorVariants[index]} text-lg m-2 my-auto`}>{themeLight}</h1>
