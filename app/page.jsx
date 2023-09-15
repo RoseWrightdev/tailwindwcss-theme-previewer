@@ -130,8 +130,8 @@ export default function Home() {
     "bg-orange-500 border-orange-700",
     "bg-red-500 border-red-700",
   ]
+  
   //color varients text
-
   const textColorVariants = [
     "text-rose-700",
     "text-pink-700",
@@ -152,6 +152,7 @@ export default function Home() {
     "text-red-700",
   ]
 
+  //color varitens text background
   const textColorVarientsBg = [
     "bg-rose-700 border-rose-700",
     "bg-pink-700 border-pink-700",
