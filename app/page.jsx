@@ -47,21 +47,21 @@ export default function Home() {
 
   //color varients light
   const themeLightColorVariants = [
-    "bg-slate-50 border-rose-700",
-    "bg-slate-50 border-pink-700",
-    "bg-slate-50 border-fuchsia-700",
-    "bg-slate-50 border-purple-700",
-    "bg-slate-50 border-violet-700",
-    "bg-slate-50 border-indigo-700",
-    "bg-slate-50 border-blue-700",
-    "bg-slate-50 border-sky-700",
-    "bg-slate-50 border-cyan-700",
-    "bg-slate-50 border-teal-700",
-    "bg-slate-50 border-emerald-700",
-    "bg-slate-50 border-green-700",
-    "bg-slate-50 border-lime-700",
-    "bg-slate-50 border-yellow-700",
-    "bg-slate-50 border-amber-700",
+    "bg-neutral-50 border-rose-700",
+    "bg-neutral-50 border-pink-700",
+    "bg-neutral-50 border-fuchsia-700",
+    "bg-neutral-50 border-purple-700",
+    "bg-neutral-50 border-violet-700",
+    "bg-neutral-50 border-indigo-700",
+    "bg-neutral-50 border-blue-700",
+    "bg-neutral-50 border-sky-700",
+    "bg-neutral-50 border-cyan-700",
+    "bg-neutral-50 border-teal-700",
+    "bg-neutral-50 border-emerald-700",
+    "bg-neutral-50 border-green-700",
+    "bg-neutral-50 border-lime-700",
+    "bg-neutral-50 border-yellow-700",
+    "bg-neutral-50 border-amber-700",
   ]
 
 
@@ -270,7 +270,7 @@ export default function Home() {
           <button className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`} onClick={handleClickNext}>
             Next
           </button>
-          {index !== 0 ? <button onClick={handleClickBack} className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`}>Back</button> : <button className={`bg-slate-300 p-4 rounded-lg text-slate-600 mr-4 border-2  border-slate-300 cursor-default`}>Back</button>}
+          {index !== 0 ? <button onClick={handleClickBack} className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`}>Back</button> : <button className={`bg-neutral-300 p-4 rounded-lg text-neutral-600 mr-4 border-2  border-neutral-300 cursor-default`}>Back</button>}
         </div>
       </div>
    </>
