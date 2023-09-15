@@ -225,5 +225,19 @@ export const themeData = [
     colorText: "amber-700",
     colorTextHex: "#b45309",
 },
-
+{
+    key: 15,
+    themeName1: "Orange",
+    themeName2: "Neutral",
+    colorLight: "neutral-50",
+    colorLightHex: "#fafafa",
+    colorLightAccent: "orange-100",
+    colorLightAccentHex: "#ffedd5",
+    colorMediumAccent: "orange-400",
+    colorMediumAccentHex: "#fb923c",
+    colorMedium: "orange-500",
+    colorMediumHex: "#f97316",
+    colorText: "orange-700",
+    colorTextHex: "#c2410c",
+},
 ]
