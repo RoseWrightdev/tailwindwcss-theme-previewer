@@ -175,7 +175,7 @@ export default function Home() {
 
   return (
    <>
-   <div className="flex justify-center items-center">
+   <div className="ml-[25vw]">
    <div className="mt-16 flex flex-col">
       <h1 className={`${textColorVariants[index]} md:text-5xl sm:text-3xl m-2 my-auto`}>TailwindCSS Color Theme Demo</h1>
       <h1 className={`${textColorVariants[index]} md:text-3xl sm:text-2xl ml-4 my-2 italic`}>{themeName + " " + (index + 1) + " / " + themeData.length}</h1>
@@ -282,7 +282,7 @@ export default function Home() {
           </svg>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex ml-[25vw]">
           <button className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`} onClick={handleClickNext}>
             Next
           </button>
