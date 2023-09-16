@@ -282,7 +282,7 @@ export default function Home() {
           </svg>
           </div>
         </div>
-        <div className="ml-[25dvw]">
+        <div className="flex justify-center items-center">
           <button className={`${themeMediumColorVariants[index]} p-4 rounded-lg text-white mr-4 border-2`} onClick={handleClickNext}>
             Next
           </button>
